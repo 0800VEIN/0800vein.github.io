@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>V E I N</p>
+
+<p>a work in progress website for a work in progress project. 0800vein; all of the emotions all at once - A TARGETED FORAY INTO A DIGITAL BLISS.</p>
+
+<p>seretide + rrexclusive.</p>
+
+<p>@0800vein on ig + bandcamp + soundcloud.</p>
+
+<p>OPERATION_ACTION, soon...</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <p> Anima ??? + ???, ???, ShadinDST, rrexclusive, ???, ???, ???, ???, Chewlie, ??? + ???, Sportdj
+</template>
+
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+
+</body>
+</html>
